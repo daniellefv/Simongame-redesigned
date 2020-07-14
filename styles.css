@@ -1,0 +1,123 @@
+body {
+  text-align: center;
+  background-image: url(images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: black;
+  height: auto;
+}
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	background-color:#ededed;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:10px 43px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+#level-title {
+  font-family: 'Cinzel', serif;
+  font-size: 2rem;
+  display: inline-block;
+  margin:  30px 0 5px 0px; 
+  color: #E4E4E4;
+}
+
+#title {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+#score {
+  font-family: 'Cinzel', serif;
+  font-size: 0.7rem;
+  color: #E4E4E4;
+}
+
+.row {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+
+.btn {
+  display: inline-block;
+  height: 244px;
+  width: 246px;
+  margin: 20px 15px 0px 0;
+}
+
+.btn.white {
+  position: absolute;
+  top: 295px;
+  height: 190px;
+  width: 190px;
+}
+
+.game-over {
+  background-image: url(images/bg2.png);
+  opacity: 0.5;
+}
+
+.red {
+  background-image: url(images/red.png);
+  background-size: cover;
+  margin-left: 30px;
+}
+
+.green {
+  background-image: url(images/green.png);
+  background-size: cover;
+  margin-left: 50px;
+}
+
+.blue {
+  background-image: url(images/blue.png);
+  background-size: cover;
+  margin-left: 50px;
+}
+
+.yellow {
+  background-image: url(images/yellow.png);
+  background-size: cover;
+  margin-left: 30px;
+}
+
+.white { 
+  background-image: url(images/white.png);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.pressed {
+  -webkit-filter: drop-shadow(5px 5px 5px white);
+  filter: drop-shadow(5px 5px 10px white); 
+  transform: scale(1.1,1.15)
+
+}
